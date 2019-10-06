@@ -1,0 +1,142 @@
+/*
+Colours:
+    Lemon Chiffon: #FAF3DD;
+    Pewter blue: #84A9C0;
+    Eerie Black: #212121;
+
+
+*/
+/* Default Style Reset */
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+/* General Styles */
+#page-container {
+    background-color: #fcf9ea;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    color: #212121;
+    font-family: starling, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15em;
+}
+
+h2 {
+    color: #212121;
+    font-family: starling, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5em;
+}
+
+p {
+    color: #212121;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+/* Nav and Page Header */
+
+nav {
+    padding: 1vh 0;
+    position: fixed;
+    background-color: #fcf9ea;
+    ul {
+        display: flex;
+        list-style: none;
+        margin-right: 1vw;
+        li {
+            margin: 0 1vw;
+        }
+    }
+}
+
+.nav-bar {
+    font-family: starling, serif;
+    font-size: 2em;
+    font-weight: 300;
+    font-style: normal;
+    color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    ul {
+        margin: 0 2vw;
+    }
+    a {
+        text-decoration: none;
+        color: #212121;
+        margin: 0;
+        transition: 0.2s ease;
+        &:hover {
+            color: #71B7E2;
+        }
+    }
+}
+
+.side-nav {
+    max-width: 10%;
+    position: fixed;
+    float: right;
+    left: 89.4%;
+    top: 75%;
+    background-color: #71B7E2;
+    padding: 1vh 1vw;
+    border-radius: 2%;
+    a {
+        font: 2.3em normal starling, serif;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.2s ease;
+        line-height: 1.5;
+        &:hover {
+            color: #fcf9ea;
+        }
+        &:active {
+            color: #fcf9ea;
+        }
+    }
+}
+
+.maintitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    .titletext {
+        margin-left: 2vw;
+    }
+}
+
+/* Text Containers */
+
+.text-block {
+    margin: 0 2vw;
+    margin-bottom: 5vh;
+    max-width: 85%;
+    .anchor {
+        height: 4em;
+        width: 100%;
+    }
+}
+
+h2.info-title {
+    font-style: italic;
+}
+
+#abstract {
+    margin: 0 auto;
+}
+
+#introduction {
+    margin: 0 auto;
+}

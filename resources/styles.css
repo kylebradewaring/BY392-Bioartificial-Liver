@@ -1,0 +1,168 @@
+/*
+Colours:
+    Lemon Chiffon: #FAF3DD;
+    Pewter blue: #84A9C0;
+    Eerie Black: #212121;
+
+
+*/
+/* Default Style Reset */
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* General Styles */
+#page-container {
+  background-color: #fcf9ea;
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  color: #212121;
+  font-family: starling, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15em;
+}
+
+h2 {
+  color: #212121;
+  font-family: starling, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 5em;
+}
+
+p {
+  color: #212121;
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+/* Nav and Page Header */
+nav {
+  padding: 1vh 0;
+  position: fixed;
+  background-color: #fcf9ea;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 1vw;
+}
+
+nav ul li {
+  margin: 0 1vw;
+}
+
+.nav-bar {
+  font-family: starling, serif;
+  font-size: 2em;
+  font-weight: 300;
+  font-style: normal;
+  color: #212121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.nav-bar ul {
+  margin: 0 2vw;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #212121;
+  margin: 0;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.nav-bar a:hover {
+  color: #71B7E2;
+}
+
+.side-nav {
+  max-width: 10%;
+  position: fixed;
+  float: right;
+  left: 89.4%;
+  top: 75%;
+  background-color: #71B7E2;
+  padding: 1vh 1vw;
+  border-radius: 2%;
+}
+
+.side-nav a {
+  font: 2.3em normal starling, serif;
+  color: #212121;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  line-height: 1.5;
+}
+
+.side-nav a:hover {
+  color: #fcf9ea;
+}
+
+.side-nav a:active {
+  color: #fcf9ea;
+}
+
+.maintitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.maintitle .titletext {
+  margin-left: 2vw;
+}
+
+/* Text Containers */
+.text-block {
+  margin: 0 2vw;
+  margin-bottom: 5vh;
+  max-width: 85%;
+}
+
+.text-block .anchor {
+  height: 4em;
+  width: 100%;
+}
+
+h2.info-title {
+  font-style: italic;
+}
+
+#abstract {
+  margin: 0 auto;
+}
+
+#introduction {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
